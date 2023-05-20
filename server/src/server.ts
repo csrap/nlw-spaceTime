@@ -1,1 +1,3 @@
-console.log('oi')
+const nome: string = 'Mateus'
+
+console.log(nome)
