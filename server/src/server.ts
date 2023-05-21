@@ -1,3 +1,7 @@
-const nome: string = 'Mateus'
+import fastify from 'fastify'
 
-console.log(nome)
+const app = fastify()
+
+app.listen({
+  port: 3333, 
+})
